@@ -2,22 +2,6 @@
 
 **Minimal software for the open web.**
 
-WhiteDragon-dev is an open-source organization that develops minimal software on Cloudflare
-Workers and Pages: an edge AI worker, a forwarding proxy, an experimental browser, a
-community forum, and a non-commercial license. Each project uses few dependencies, requires
-no build step, and is small enough to be read in full.
-
-| | |
-| --- | --- |
-| **Focus** | Edge software |
-| **Runtime** | Cloudflare Workers & Pages |
-| **Languages** | JavaScript · TypeScript · HTML |
-| **Source** | Public on GitHub |
-
-# WhiteDragon-dev
-
-**Minimal software for the open web.**
-
 We build small, single-purpose tools on Cloudflare Workers and Pages — an edge AI worker, a forwarding proxy, a desktop browser, a community forum, and two source-available licenses. Every project favors few dependencies, no build step, and code that's small enough to read in full.
 
 ---
@@ -29,7 +13,7 @@ We build small, single-purpose tools on Cloudflare Workers and Pages — an edge
 | [**webcore**](https://github.com/whitedragon-dev/webcore) | A chat assistant that runs entirely on Cloudflare Workers AI. The model answers inside the same request that serves the page — no separate backend to run, scale, or keep online. |
 | [**relay**](https://github.com/whitedragon-dev/relay) | A single-file Cloudflare Worker that forwards and rewrites web pages so they load through a domain you control, links and scripts included. For networks on which the open web isn't directly reachable. |
 | [**daybreak**](https://github.com/whitedragon-dev/daybreak) | A minimal multi-tab desktop browser built on Electron's `BaseWindow` and `WebContentsView` APIs — a frameless window, a custom tab strip and address bar, and a real registered `daybreak://` protocol. |
-| [**whitedragon-forum**](https://whitedragon-dev.github.io/whitedragon-forum) | The community space for the organization, built on git-forums and GitHub Discussions, so threads, issues, and source stay in one place. |
+| [**whitedragon-forum**](https://github.com/whitedragon-dev/whitedragon-forum) | The community space for the organization, built on git-forums and GitHub Discussions, so threads, issues, and source stay in one place. ([Open the forum](https://whitedragon-dev.github.io/whitedragon-forum)) |
 | [**WD-NCL**](https://github.com/whitedragon-dev/WD-NCL) | The White Dragon Non-Commercial License — a non-commercial open-source license written from scratch, with an absolute liability waiver. |
 | [**WD-SAL**](https://github.com/whitedragon-dev/WD-SAL) | The White Dragon Source-Available License — adds an explicit patent grant, a no-sublicensing restriction, and a stronger liability disclaimer on top of WD-NCL's terms. |
 
